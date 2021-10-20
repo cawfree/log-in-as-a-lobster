@@ -1,0 +1,23 @@
+{
+  "name": "log-in-as-a-lobster",
+  "version": "0.1.0",
+  "description": "⚛️  Log In as a Lobster 🦞",
+  "main": "dist",
+  "repository": "https://github.com/cawfree/log-in-as-a-lobster",
+  "author": "Alex Thomas (@cawfree) <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}

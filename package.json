@@ -8,16 +8,26 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "test": "jest"
+    "owners": "node scripts/owners",
+    "test": "jest",
+    "ts:node": "node_modules/.bin/ts-node"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-typescript": "^7.15.0",
     "@types/jest": "^27.0.2",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.23.0",
     "babel-jest": "^27.3.1",
+    "chalk": "^4.1.2",
+    "ethers": "^5.5.1",
     "jest": "^27.3.1",
     "ts-node": "^10.3.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "yargs": "^17.2.1"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0"
   }
 }

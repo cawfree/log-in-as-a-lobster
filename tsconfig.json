@@ -5,11 +5,15 @@
     "declaration": true,
     "noImplicitAny": true,
     "removeComments": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
     "experimentalDecorators": true,
-    "rootDir": "src",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "outDir": "dist",
     "sourceMap": true,
     "listFiles": true,
     "noEmitOnError": true
   },
-  "exclude": ["node_modules"]
+  "exclude": []
 }

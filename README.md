@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpeg" width="50%" alt="lobsterdao" />
+  <img src="assets/logo.jpeg" width="30%" alt="lobsterdao" />
 </p>
 
 # 🦞 log-in-as-a-lobster 🦞

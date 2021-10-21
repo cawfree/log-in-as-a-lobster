@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.jpeg" width="50%" alt="lobsterdao" />
+</p>
+
 # 🦞 log-in-as-a-lobster 🦞
 A TypeScript implementation of [__Log In as a Lobster__](https://lobsters.substack.com/p/product-hunt-as-a-protocol-or-grassroots), which can be used to verify if a given wallet address is the holder of an asset from the [__lobsterdao__](https://opensea.io/collection/lobsterdao) collection.
 

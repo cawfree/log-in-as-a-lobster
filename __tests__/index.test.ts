@@ -4,6 +4,8 @@ import owners from '../assets/lobsters_owners.json';
 
 import {checkAddressIsInitialMinter, checkAddressIsLobster} from '../src'
 
+const cawfree = '0x13880821e1d2453E77bccE113700765C65A0dF90';
+
 test('jest', () => {
   expect(true).toBeTruthy();
 });
@@ -19,8 +21,7 @@ test('checkAddressIsLobster:random', async () => {
 });
 
 test('checkAddressIsLobster:cawfree', async () => {
-  const address = '0x13880821e1d2453E77bccE113700765C65A0dF90';
-  const maybeLobster = await checkAddressIsLobster({address});
+  const maybeLobster = await checkAddressIsLobster({address: cawfree});
   expect(maybeLobster).toBeTruthy();
   const {isInitialMinter} = maybeLobster;
   expect(isInitialMinter).toBe(false);
@@ -31,5 +32,6 @@ test('checkAddressIsInitialMinter:owners', async () => {
 });
 
 test('checkAddressIsInitialMinter:random', async () => {
-  expect(checkAddressIsInitialMinter(randomAddress()));
+  expect(checkAddressIsInitialMinter(randomAddress())).toBe(false);
+  expect(checkAddressIsInitialMinter(cawfree)).toBe(false);
 });
